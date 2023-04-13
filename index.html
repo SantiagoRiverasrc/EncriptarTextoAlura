@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Desafio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Encriptador</h3>
+        <textarea id="entrada" cols="30" rows="10" onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32)"></textarea>
+        <br>
+        <h3 class="title">Desencriptar</h3>
+        <textarea id="entradaTwo" cols="30" rows="10" onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32)"></textarea>
+        <br>
+        <button class="btn">Encriptar</button>
+        <button class="newbtn">Desencriptar</button>
+        <p id="resultado"></p>
+
+        <footer>
+            <a href="https://github.com/SantiagoRiverasrc" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/santiago-rivera-10abvc/" target="_blank">Linkedin</a>
+        </footer>
+    </div>
+    
+</body>
+<script src='./scr.js'></script>
+</html>
